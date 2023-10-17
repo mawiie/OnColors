@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+        <section>
+            <div class="center-div">
+            <!-- Color Picker and button to generate color scheme -->
+            <div class="color-selector">
+                <input type="color" id="color1" value="#ff0000">
+                <select id="color-theme" name="color-theme" required>
+                    <option>Monochrome</option>
+                    <option>Monochrome-dark</option>
+                    <option>Monochrome-light</option>
+                    <option>Analogic</option>
+                    <option>Complement</option>
+                    <option>Analogic-Complement</option>
+                    <option>Triad</option>
+                </select>
+                <button id="generate-scheme">Get color scheme</button>
+            </div>
+            <!-- Color Scheme -->
+            <div id="color-palette"></div>
+            
+            </div>
+        </section>
+    </main>
+    <script src="script.js", type="module"></script>
+</body>
